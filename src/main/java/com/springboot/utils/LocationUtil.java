@@ -33,4 +33,14 @@ public class LocationUtil {
     public void test() throws UnsupportedEncodingException {
         System.out.println(getLocation("江苏省南京市六合区雄州街道王桥路17-6号花语馨苑"));
     }
+
+    /**
+     *  隐藏手机号中间4位信息
+     */
+    @Test
+    public void formatePhone() {
+        String num = "18687536664";
+        String num1 = num.replaceAll("(\\d{3})\\d{4}(\\d{4})","$1****$2");
+        System.out.println(num1);
+    }
 }
