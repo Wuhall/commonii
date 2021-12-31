@@ -10,9 +10,9 @@ spring:
       #driver-class-name: oracle.jdbc.driver.OracleDriver
       driver-class-name: com.mysql.jdbc.Driver
       #url: jdbc:oracle:thin:@localhost:1521:ORCL
-      url: jdbc:mysql://hwy-testdb.jsxwsx.com:3336/dev_019_zhjldb?useUnicode=true&characterEncoding=utf-8&autoReconnect=true&useSSL=false
-      username: zhjl
-      password: zhjl#2020
+      url: jdbc:mysql://
+      username: 
+      password: 
       # 连接池配置
       initial-size: 5
       min-idle: 5
