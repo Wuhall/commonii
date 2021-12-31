@@ -11,12 +11,13 @@ import java.net.URLEncoder;
  */
 public class LocationUtil {
     private static final String amapUrl = "https://restapi.amap.com/v3/geocode/geo";
+    private static final String amapKey = "d2ba606e1e2021b70cf661fb3c808d63";
 
     /**
      *  根据地名获取经纬度信息
      */
     public String getLocation(String address) throws UnsupportedEncodingException {
-        String param = "address=" + URLEncoder.encode(address,"utf-8") + "&key=高德key值";
+        String param = "address=" + URLEncoder.encode(address,"utf-8") + "&key=" + amapKey;
         String sourceStr = HttpRequestUtil.sendGet(amapUrl,param);
         JSONObject jsonObject = JSONObject.parseObject(sourceStr);
         JSONArray jsonArray = jsonObject.getJSONArray("geocodes");
