@@ -23,6 +23,18 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.7</java.version>
 	</properties>
+	<!--在pom中定义仓库-->
+	<repositories>
+		<repository>
+			<id>txtec-repos</id>
+			<name>txtec Repository</name>
+			<url>https://hwy-nexus.jsxwsx.com/repository/maven-public/</url>
+		</repository>
+		<repository>
+			<id>getui-nexus</id>
+			<url>http://mvn.gt.getui.com/nexus/content/repositories/releases/</url>
+		</repository>
+	</repositories>
 
 	<dependencies>
 		<dependency>
@@ -112,6 +124,26 @@
 			<artifactId>android-json</artifactId>
 			<version>RELEASE</version>
 			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.openoffice</groupId>
+			<artifactId>unoil</artifactId>
+			<version>3.2.1</version>
+		</dependency>
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>2.6</version>
+		</dependency>
+		<dependency>
+			<groupId>com.artofsolving</groupId>
+			<artifactId>jodconverter</artifactId>
+			<version>2.2.2</version>
+		</dependency>
+		<dependency>
+			<groupId>com.artofsolving</groupId>
+			<artifactId>jodconverter-cli</artifactId>
+			<version>2.2.2</version>
 		</dependency>
 	</dependencies>
 

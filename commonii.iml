@@ -92,5 +92,10 @@
     <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpcore:4.4.8" level="project" />
     <orderEntry type="library" name="Maven: com.alibaba:fastjson:1.1.41" level="project" />
     <orderEntry type="library" name="Maven: com.vaadin.external.google:android-json:0.0.20131108.vaadin1" level="project" />
+    <orderEntry type="library" name="Maven: org.openoffice:unoil:3.2.1" level="project" />
+    <orderEntry type="library" name="Maven: org.openoffice:ridl:3.2.1" level="project" />
+    <orderEntry type="library" name="Maven: commons-io:commons-io:2.6" level="project" />
+    <orderEntry type="library" name="Maven: com.artofsolving:jodconverter:2.2.2" level="project" />
+    <orderEntry type="library" name="Maven: com.artofsolving:jodconverter-cli:2.2.2" level="project" />
   </component>
 </module>
